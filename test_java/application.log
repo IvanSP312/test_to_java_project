@@ -1,0 +1,60 @@
+2019-01-14 18:34:21 INFO  ru.TestLibs:49 - Имя файла не залано! Взято значение по умолчанию.
+2019-01-14 18:34:21 INFO  ru.TestLibs:69 - <?xml version="1.0" encoding="UTF-8"?>
+<testPlans>
+  <testPlan path="C:\JMX\acknowledgeReceipt_1.jmx" timeToWait="10">
+    <outLog>C:\JMX\acknowledgeReceipt_1.log</outLog>
+  </testPlan>
+  <testPlan path="C:\JMX\acknowledgeReceipt_10.jmx">
+    <outLog>C:\JMX\acknowledgeReceipt_10.log</outLog>
+  </testPlan>
+  <testPlan path="C:\JMX\acknowledgeReceipt_20.jmx"/>
+</testPlans>
+
+2019-01-14 18:34:21 INFO  ru.TestLibs:73 - Итоговое значение:
+{"testPlans": {"testPlan": [
+  {
+    "path": "C:\\JMX\\acknowledgeReceipt_1.jmx",
+    "outLog": "C:\\JMX\\acknowledgeReceipt_1.log",
+    "timeToWait": 10
+  },
+  {
+    "path": "C:\\JMX\\acknowledgeReceipt_10.jmx",
+    "outLog": "C:\\JMX\\acknowledgeReceipt_10.log"
+  },
+  {"path": "C:\\JMX\\acknowledgeReceipt_20.jmx"}
+]}}
+2019-01-14 18:56:54 INFO  ru.TestLibs:69 - PING infotecs.ru (90.156.152.79) 56(84) bytes of data.
+2019-01-14 18:56:54 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=1 ttl=59 time=2.65 ms
+2019-01-14 18:56:55 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=2 ttl=59 time=1.97 ms
+2019-01-14 18:56:56 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=3 ttl=59 time=2.20 ms
+2019-01-14 18:56:57 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=4 ttl=59 time=9.17 ms
+2019-01-14 18:56:58 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=5 ttl=59 time=2.86 ms
+2019-01-14 18:56:59 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=6 ttl=59 time=2.96 ms
+2019-01-14 18:57:00 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=7 ttl=59 time=2.00 ms
+2019-01-14 18:57:01 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=8 ttl=59 time=2.91 ms
+2019-01-14 18:57:02 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=9 ttl=59 time=3.11 ms
+2019-01-14 18:57:03 INFO  ru.TestLibs:69 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=10 ttl=59 time=2.69 ms
+2019-01-14 18:57:03 INFO  ru.TestLibs:69 - 
+2019-01-14 18:57:03 INFO  ru.TestLibs:69 - --- infotecs.ru ping statistics ---
+2019-01-14 18:57:03 INFO  ru.TestLibs:69 - 10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+2019-01-14 18:57:03 INFO  ru.TestLibs:69 - rtt min/avg/max/mdev = 1.971/3.256/9.170/2.009 ms
+2019-01-14 18:58:48 ERROR ru.TestLibs:77 - connect: Недопустимый аргумент
+2019-01-14 19:28:55 ERROR ru.TestLibs:36 - 
+2019-01-14 19:30:02 ERROR ru.TestLibs:36 - 
+2019-01-14 19:31:18 INFO  testPing.Ping:53 - PING infotecs.ru (90.156.152.79) 56(84) bytes of data.
+2019-01-14 19:31:18 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=1 ttl=59 time=2.39 ms
+2019-01-14 19:31:19 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=2 ttl=59 time=3.03 ms
+2019-01-14 19:31:20 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=3 ttl=59 time=2.56 ms
+2019-01-14 19:31:21 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=4 ttl=59 time=3.54 ms
+2019-01-14 19:31:22 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=5 ttl=59 time=2.30 ms
+2019-01-14 19:31:23 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=6 ttl=59 time=2.40 ms
+2019-01-14 19:31:24 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=7 ttl=59 time=3.64 ms
+2019-01-14 19:31:25 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=8 ttl=59 time=2.57 ms
+2019-01-14 19:31:26 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=9 ttl=59 time=2.79 ms
+2019-01-14 19:31:27 INFO  testPing.Ping:53 - 64 bytes from vm571836.vps.masterhost.ru (90.156.152.79): icmp_seq=10 ttl=59 time=2.10 ms
+2019-01-14 19:31:27 INFO  testPing.Ping:53 - 
+2019-01-14 19:31:27 INFO  testPing.Ping:53 - --- infotecs.ru ping statistics ---
+2019-01-14 19:31:27 INFO  testPing.Ping:53 - 10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+2019-01-14 19:31:27 INFO  testPing.Ping:53 - rtt min/avg/max/mdev = 2.103/2.736/3.640/0.498 ms
+2019-01-14 19:31:51 ERROR testGenerateFile.GenerateFile:36 - 
+2019-01-14 19:34:08 ERROR testGenerateFile.GenerateFile:36 - 
