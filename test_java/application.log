@@ -58,3 +58,6 @@
 2019-01-14 19:31:27 INFO  testPing.Ping:53 - rtt min/avg/max/mdev = 2.103/2.736/3.640/0.498 ms
 2019-01-14 19:31:51 ERROR testGenerateFile.GenerateFile:36 - 
 2019-01-14 19:34:08 ERROR testGenerateFile.GenerateFile:36 - 
+2019-01-14 20:50:04 ERROR testGenerateFile.GenerateFile:36 - 
+2019-01-14 20:50:12 INFO  testPing.Ping:53 - ����� ����饭. ��� ��ࠬ��� -c �ॡ����� �ࠢ� �����������.
+2019-01-14 21:24:13 INFO  testPing.Ping:49 - Cannot run on this OS. Sorry... 
